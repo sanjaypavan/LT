@@ -8,7 +8,6 @@ Commands:
 Hot deployment of portlets
 ```
 grunt watch
-
 ```
 Deploy
 ```

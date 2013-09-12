@@ -1,6 +1,9 @@
 {
   "name": "community",
   "version": "1.0.0",
+  "portletDir":"portlets/csr-portlet/docroot/",
+  "tomcatTempDir":"/home/sanjayc/Leantaas/dev-tools/tomcat-csr/temp/0-csr-portlet/",
+  "tomcatWebappDir":"/home/sanjayc/Leantaas/dev-tools/tomcat-csr/webapps/csr-portlet/",
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-uglify": "~0.2.2",

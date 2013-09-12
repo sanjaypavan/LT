@@ -23,8 +23,8 @@ module.exports = function(grunt) {
    copy : {
       portlets : {
         files : [
-          { expand: 'true', cwd: 'portlets/csr-portlet/docroot/', src : ['**'], dest : '/home/sanjayc/Leantaas/dev-tools/tomcat-csr/temp/0-csr-portlet/' },
-          { expand: 'true', cwd: 'portlets/csr-portlet/docroot/', src : ['**'], dest : '/home/sanjayc/Leantaas/dev-tools/tomcat-csr/webapps/csr-portlet/' }
+          { expand: 'true', cwd: '<%= pkg.portletDir %>', src : ['**'], dest : '<%= pkg.tomcatTempDir %>' },
+          { expand: 'true', cwd: '<%= pkg.portletDir %>', src : ['**'], dest : '<%= pkg.tomcatWebappDir %>' }
         ]
       }
     },
